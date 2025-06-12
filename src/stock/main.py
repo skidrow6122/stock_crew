@@ -2,7 +2,7 @@ from crew import StockAnalysisCrew
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Jupyter 환경 체크 후 조건부 출력포맷 import
+# Jupyter 환경 체크 후 조건부 출력 포맷 import
 try:
     from IPython.display import display, Markdown
     JUPYTER_AVAILABLE = True
