@@ -1,0 +1,23 @@
+financial_analysis:
+  description: >
+    Perform a thorough financial analysis of ${company_stock}. Analyze key financial metrics, profitability, growth, debt ratios, and more.
+  expected_output: >
+    A comprehensive financial analysis report for ${company_stock}. Clearly identify financial strengths and weaknesses based on the latest data.
+
+market_analysis:
+  description: >
+    Analyze ${company_stock}'s market position and consider competitive environment and industry trends.
+  expected_output: >
+    A market analysis report for ${company_stock} including industry trends, market share, and positioning compared to major competitors.
+
+risk_assessment:
+  description: >
+    Analyze investment risk factors for ${company_stock}. Consider market, operational, financial risks and other factors.
+  expected_output: >
+    A risk analysis report that identifies and summarizes the risks of ${company_stock} from an investor's perspective.
+
+investment_recommendation:
+  description: >
+    Combine all previous analysis results to provide strategic investment opinion on ${company_stock}.
+  expected_output: >
+    A comprehensive investment report for ${company_stock} including summary, financial/market/risk analysis summary, target price, investment opinion, reasoning and key numbers.
